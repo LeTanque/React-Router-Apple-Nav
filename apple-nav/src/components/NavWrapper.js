@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 
 
-const NavWrapper = () => {
+const NavWrapper = props => {
     return (
-        <nav>
+        <Fragment>
+            <nav>
 
 
-        </nav>
+
+            </nav>
+            <h1></h1>
+        </Fragment>
     )
 }
 
